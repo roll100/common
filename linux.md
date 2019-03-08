@@ -17,4 +17,10 @@ curl localhost:8000/api/v1/upimg -F "file=@/Users/fungleo/Downloads/401.png" -H 
 
 -O (大写)下载文件
 curl -O http://www.linux.com/dodo1.JPG
+
+## 部署相关
+查看占用此端口的进程
+lsof -i:9090
+杀死进程
+kill pid
 ```
